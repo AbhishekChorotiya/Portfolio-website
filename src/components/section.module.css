@@ -1,0 +1,8 @@
+.section_wrap{
+    height: 100vh;
+    /* border: 2px solid wheat; */
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}

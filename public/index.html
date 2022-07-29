@@ -10,34 +10,91 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
     <title>React App</title>
+    <script src="./js/headerAndBottomText.js"></script>
+    <style>
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #dcdcdc;
+        border-radius: 5%;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #868685;
+        border-radius: 10px;
+
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #f0b077;
+      }
+
+      html {
+        font-size: 10px;
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #201f1d;
+      }
+      #scorll {
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        z-index: 80;
+        bottom: 40px;
+        position: absolute;
+        border-width: 0 0.25em 0.25em 0;
+        border-style: solid;
+        border-color: #f0b077;
+        animation: scrolldown 1.2s ease-in-out infinite;
+        left: 50%;
+        transform: translateY(0%) rotate(45deg);
+        cursor: pointer;
+        opacity: 0;
+      }
+      @keyframes scrolldown {
+        0% {
+          transform: translateY(20%) rotate(45deg);
+          opacity: 0.7;
+        }
+        50% {
+          transform: translateY(0%) rotate(45deg);
+          opacity: 0.2;
+        }
+        100% {
+          transform: translateY(20%) rotate(45deg);
+          opacity: 0.7;
+        }
+      }
+
+      @media screen and (max-width: 1100px) {
+        html {
+          font-size: 9px;
+        }
+      }
+      @media screen and (max-width: 970px) {
+        html {
+          font-size: 8px;
+        }
+      }
+    </style>
+
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <a href="#secondSection" id="scorll"></a>
+   
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
