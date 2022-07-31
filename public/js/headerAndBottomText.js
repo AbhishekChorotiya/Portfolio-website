@@ -1,6 +1,6 @@
 // two onScroll event will not work on same time so included in one function 
 
-var prevScrollpos = window.pageYOffset;
+var prevScrollposs = window.pageYOffset;
 
 
 window.onscroll = () => {
@@ -17,19 +17,15 @@ window.onscroll = () => {
         document.getElementById("scorll").style.visibility = "visible";
         document.getElementById("text").style.color = "#201f1d";
     }
-    if(window.pageYOffset>615){
 
-    }else{
-        
-    }
 
 // for header 
 
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("header").style.top = "0";
+    var currentScrollPoss = window.pageYOffset;
+    if (prevScrollposs > currentScrollPoss) {
+        document.getElementById("headerr").style.top = "0";
     } else {
-        document.getElementById("header").style.top = "-60px";
+        document.getElementById("headerr").style.top = "-60px";
     }
-    prevScrollpos = currentScrollPos;
+    prevScrollposs = currentScrollPoss;
 };

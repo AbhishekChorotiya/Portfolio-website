@@ -5,7 +5,7 @@ const GlassButton =(props)=>{
 
     return(
 
-        <a href="/glassbutton" className={classes.button}>{props.children}
+        <a href={props.redirect} id={props.id} className={classes.button}>{props.children}
         <span></span>
         <span></span>
         <span></span>

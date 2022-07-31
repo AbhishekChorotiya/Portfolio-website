@@ -14,7 +14,7 @@
   cursor: pointer;
   margin-top: 20px;
   height: auto;
-  min-width: 150px;
+  min-width: 12rem;
   width: fit-content;
   text-decoration: none;
 }

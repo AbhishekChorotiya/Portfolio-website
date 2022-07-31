@@ -3,7 +3,7 @@ import classes from "./header.module.css";
 const Header = () => {
     const logo = "<A/>";
     return (
-        <header id="header" className={classes["header"]}>
+        <header id="headerr" className={classes["header"]}>
             <a href="/" className={classes.logo}>
                 {logo}
             </a>

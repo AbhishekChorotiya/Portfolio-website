@@ -7,7 +7,7 @@ import Section from './components/section';
 import Projects from './components/projectsSection/projects';
 function App() {
 
- 
+
 
   return (
     <div className="App">
@@ -18,7 +18,9 @@ function App() {
       <Section id={'secondSection'}>
         <Projects/>
       </Section>
+      <Section id={'thirdSection'}>
 
+      </Section>
       <IconSidebar/>
     </div>
   );

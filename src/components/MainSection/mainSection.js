@@ -39,7 +39,7 @@ const MainSection = () => {
         </div>
 
         <div className={classes.bottom_div}>
-        <h1 id="text" className={classes.bottom_text}> NodeJS and React Developer</h1>
+        {/* <h1 id="text" className={classes.bottom_text}> NodeJS and React Developer</h1> */}
         </div>
       </div>
     </Fragment>
