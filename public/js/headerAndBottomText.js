@@ -1,9 +1,18 @@
 // two onScroll event will not work on same time so included in one function 
 
-var prevScrollposs = window.pageYOffset;
+var prevScrollpos = window.pageYOffset;
 
 
 window.onscroll = () => {
+
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("header").style.top = "0";
+    } else {
+        document.getElementById("header").style.top = "-60px";
+    }
+    prevScrollpos = currentScrollPos;
+
     //for bottom div text 
     if (window.pageYOffset > 120) {
         document.getElementById("scorll").style.visibility = "hidden";
@@ -21,11 +30,5 @@ window.onscroll = () => {
 
 // for header 
 
-    var currentScrollPoss = window.pageYOffset;
-    if (prevScrollposs > currentScrollPoss) {
-        document.getElementById("headerr").style.top = "0";
-    } else {
-        document.getElementById("headerr").style.top = "-60px";
-    }
-    prevScrollposs = currentScrollPoss;
+
 };

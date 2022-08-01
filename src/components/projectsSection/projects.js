@@ -8,7 +8,7 @@ const Projects = (props) => {
 
     return (
         <div className={classes.outter_div}>
-            <div className={classes.header}>
+            <div className={classes.header} data-aos='fade-left'>
                 <label>02. <a>Things I've made</a></label>
             </div>
             <div className={classes.inner_div}>
@@ -23,7 +23,7 @@ const Projects = (props) => {
                     </ul>
                     <p className={classes.p2}> NodeJS • HandleBars • CSS • Express • Socket.io • Bad-words(npm) • Mustache</p>
                 </Card>
-                <Card title='Portfolio-Website' secondType={false}>  <p className={classes.p}>Designed a simple chat application using npm modules such as HandleBars, Socket.io using NodeJS.
+                <Card title='Chat-app' secondType={false}>  <p className={classes.p}>Designed a simple chat application using npm modules such as HandleBars, Socket.io using NodeJS.
                     <br></br>It has some awsome features like,
                 </p>
                     <ul className={classes.ul}>

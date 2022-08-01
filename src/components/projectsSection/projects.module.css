@@ -13,7 +13,7 @@
   position: absolute;
   display: block;
   justify-self: left;
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 .header label {
@@ -53,8 +53,8 @@
   align-self: flex-end;
   display: flex;
   flex-direction: column;
-  margin-bottom: 4rem;
-  overflow: hidden;
+  margin-bottom: 3rem;
+  /* overflow: hidden; */
   /* background-color: #868685; */
   /* border-radius: 1rem; */
 }
@@ -103,12 +103,13 @@
   width: 100%;
   height: fit-content;
   position: absolute;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   right: 0;
   bottom: 0;
   /* border: 2px solid red; */
   display: grid;
-  justify-content: center;
+  justify-content: right;
+  transform: translateX(-15rem);
   align-items: center;
   align-content: center;
   z-index: 20;

@@ -6,12 +6,12 @@ const Card = (props) => {
 
 
     return (
-        <div className={classes.card_div}>
-            <div className={classes.img_div}>
+        <div className={classes.card_div} >
+            <div className={classes.img_div} data-aos="zoom-in">
                 <img src={chatapp} className={classes.img}></img>
             </div>
-            <div className={classes.desc_div}>
-                <div className={classes.title_div}>
+            <div className={classes.desc_div} data-aos='fade-right' data-aos-duration='500'>
+                <div className={classes.title_div} >
                     <a className={classes.title}> {props.title}</a>
                     <div className={classes.links_div}>
                         <span className={classes.span}>
@@ -27,7 +27,7 @@ const Card = (props) => {
                         </span>
                     </div>
                 </div>
-                <div className={classes.content_div}>
+                <div className={classes.content_div} >
                     {props.children}
                 </div>
             </div>
