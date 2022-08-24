@@ -1,0 +1,69 @@
+.card {
+  width: 100%;
+  height: 20%;
+  /* border: 2px solid wheat; */
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  height: 16%;
+}
+
+
+
+.title_div {
+  /* border: 2px solid salmon; */
+  height: fit-content;
+  display: grid;
+  justify-content: right;
+  align-items: center;
+  width: 15%;
+}
+
+.title {
+  color: #dcdcdc;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto Mono", monospace;
+  /* font-weight: bold; */
+}
+
+.bar_div {
+  /* border: 2px solid goldenrod; */
+  height: 50%;
+  width: 75%;
+  display: grid;
+}
+
+.bar {
+  width: 90%;
+  height: 25%;
+  border: 0.1rem solid #868685;
+  justify-self: center;
+  align-self: center;
+  overflow: hidden;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.bar_fill {
+  height: 100%;
+  border-radius: inherit;
+  position: relative;
+  background: rgba(240, 176, 119, 1);
+}
+
+
+.persentage_div {
+  width: 10%;
+  /* border: 1px solid salmon; */
+  height: fit-content;
+  display: flex;
+  justify-content: left;
+}
+
+.persentage {
+  color: #f0b077;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto Mono", monospace;
+}

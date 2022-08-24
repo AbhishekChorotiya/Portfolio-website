@@ -36,7 +36,7 @@ const Projects = (props) => {
                 
                 </Card>
             </div>
-            <div className={classes.button_div}>
+            <div className={classes.button_div} >
                 <GlassButton id="projectsButton" >View all projects</GlassButton>
             </div>
         </div>

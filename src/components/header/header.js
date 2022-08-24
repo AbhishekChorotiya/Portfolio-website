@@ -22,7 +22,7 @@ const Header = () => {
                 </label>
                 <label className={classes.label}>
                     03.
-                    <a className={classes.navigation} href="/">
+                    <a className={classes.navigation} href="#thirdSection">
                         Skills
                     </a>
                 </label>

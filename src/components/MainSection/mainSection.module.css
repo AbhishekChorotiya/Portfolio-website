@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
 .outter_div {
-  display: block;
+  display: flex;
   height: 100%;
   position: relative;
   width: 100vw;
@@ -15,24 +15,32 @@
   width: 100%;
   display: flex;
   position: relative;
-  height: 90%;
+  height: fit-content;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  bottom: 0;
+  /* border: 2px solid white; */
 }
 
 .first_div_wrap {
   display: inline-block;
-  min-width: 65%;
-  height: 95%;
+  min-width: 64%;
+  height: fit-content;
+  justify-self: center;
   /* border: 2px solid red; */
 }
 .second_div_wrap {
-  min-width: 35%;
-  height: 95%;
-  display: inline-block;
+  display: flex;
+  min-width: 34%;
+  height: fit-content;
+  justify-self: center;
   /* border: 2px solid red; */
-  position: relative;
 }
 
 .first_div {
+  padding: 1rem;
   display: grid;
   width: 100%;
   height: 100%;
@@ -56,11 +64,13 @@
 
 .second_div {
   display: grid;
-  justify-content: left;
-  align-items: center;
-  /* border: 2px solid red; */
+  width: 100%;
   height: 100%;
-
+  align-items: center;
+  justify-content: left;
+  align-content: center;
+  /* border: 2px solid wheat; */
+  padding: 1rem;
 }
 
 
@@ -83,7 +93,7 @@
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   letter-spacing: 0.3rem;
-  transform: translateX(-4%);
+  transform: translateX(-2%);
 }
 .first_div p {
   color: #f0b077;
@@ -122,8 +132,8 @@
   text-align: left;
   height: fit-content;
   width: fit-content;
-  font-size: 1.5rem;
-  inline-size: 40rem;
+  font-size: 1.7rem;
+  inline-size: 50rem;
   font-family: "Quicksand", sans-serif;
   letter-spacing: 1px;
   word-spacing: 2.5px;
@@ -132,7 +142,7 @@
 .p2:hover {
   inline-size: 45rem;
   color: #dcdcdc;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   transform: translateX(-1%);
 
   transition: all 0.1s ease-in;
@@ -156,12 +166,12 @@
 
 .photo {
   width: 26rem;
-  position: absolute;
   box-shadow: 5px 5px #f0b077;
   filter: grayscale(0.7);
   transition: all 0.4s ease;
   cursor: pointer;
   border-radius: 20px;
+  display: flex;
 }
 
 .photo:hover {
@@ -171,7 +181,7 @@
 }
 
 .bottom_div {
-  height: 18%;
+  height: fit-content;
   width: 100%;
   bottom: 0;
   position: absolute;
@@ -185,4 +195,61 @@
   font-size: 2.5rem;
   letter-spacing: 0.2rem;
   word-spacing: 0.4rem;
+}
+
+@media screen and (max-width:700px) {
+
+  .div_wrap{
+    flex-direction: column-reverse;
+  }
+  .second_div_wrap{
+    margin-bottom: 3rem;
+  }
+  .photo{
+    box-shadow: none;
+  }
+  .second_div{
+    overflow: hidden;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    padding: 0;
+  }
+  .first_div{
+    justify-content: center;
+  }
+  .first_div p,h1,h2,h3{
+    justify-self: center;
+    text-align: center;
+  }
+  .glass_button_div{
+    justify-self: center;
+    justify-content: center;
+    /* border: 2px solid rebeccapurple; */
+  }
+  .glass_button_wrap1{
+    justify-content: center;
+    /* border: 2px solid rebeccapurple; */
+  }
+  .glass_button_wrap2{
+    justify-content: center;
+    /* border: 2px solid rebeccapurple; */
+  }
+  
+}
+
+@media screen and (max-width:400px) {
+  .first_div h2{
+    display: none;
+  }
+  .first_div .p2{
+    font-size: 2rem;
+    justify-self: center;
+    text-align: center;
+    inline-size: 40rem;
+  }
+  .glass_button_div{
+    flex-direction: column;
+  }
+
 }

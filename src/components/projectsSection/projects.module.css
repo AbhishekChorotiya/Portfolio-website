@@ -13,11 +13,11 @@
   position: absolute;
   display: block;
   justify-self: left;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 .header label {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #f0b077;
   font-family: "Roboto Mono", monospace;
   letter-spacing: 0.2rem;
@@ -25,7 +25,7 @@
 }
 
 .header a {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #dcdcdc;
   font-family: "Quicksand", sans-serif;
   letter-spacing: 0.2rem;
@@ -39,21 +39,22 @@
   background-color: #868685;
   margin-left: 2rem;
   margin-bottom: 1.3rem;
-
 }
+
 
 .inner_div {
   width: 80%;
-  height: 80%;
+  height: 70%;
   /* border: 1px solid #868685; */
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   position: absolute;
   justify-self: center;
-  align-self: flex-end;
+  align-self: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 3rem;
+  background: none;
+  transform: translateY(3%);
   /* overflow: hidden; */
   /* background-color: #868685; */
   /* border-radius: 1rem; */
@@ -103,13 +104,13 @@
   width: 100%;
   height: fit-content;
   position: absolute;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   right: 0;
   bottom: 0;
   /* border: 2px solid red; */
   display: grid;
   justify-content: right;
-  transform: translateX(-15rem);
+  transform: translateX(-10rem);
   align-items: center;
   align-content: center;
   z-index: 20;

@@ -37,6 +37,8 @@ header {
   text-align: center;
   align-content: center;
   justify-content: center;
+  transition: all 0.2s ease-in;
+
 }
 .navigation:hover,
 .logo:hover {
@@ -72,7 +74,10 @@ header .logo {
     float: none;
   }
   .navigation {
-    display: block;
+    display: none;
+  }
+   .label{
+    display: none;
   }
   header .right_div {
     float: none;
