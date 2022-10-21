@@ -130,3 +130,17 @@
   transition: all 0.2s ease;
 }
 
+@media screen and (max-width:400px) {
+  .p,.p2{
+    font-size: 1.8rem;
+  }
+  .ul{
+    font-size: 1.8rem;
+  }
+
+  .button_div{
+    justify-content: center;
+    align-content: center;
+    transform: translateX(0rem);
+  }
+}
