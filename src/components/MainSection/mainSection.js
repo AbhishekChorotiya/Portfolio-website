@@ -9,7 +9,6 @@ const MainSection = () => {
   return (
     <Fragment>
       <div className={classes.outter_div}>
-        <div className={classes.div_wrap}>
           <div className={classes.first_div_wrap}>
             <div className={classes.first_div}>
               <p>Hi, My name is</p>
@@ -31,17 +30,10 @@ const MainSection = () => {
               </div>
             </div>
           </div>
-          <div className={classes.second_div_wrap}>
             <div className={classes.second_div}>
               <img className={classes.photo} src={photo} alt="user"></img>
             </div>
-          </div>
         </div>
-
-        <div className={classes.bottom_div}>
-        {/* <h1 id="text" className={classes.bottom_text}> NodeJS and React Developer</h1> */}
-        </div>
-      </div>
     </Fragment>
   );
 };

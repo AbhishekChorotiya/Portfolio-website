@@ -1,5 +1,5 @@
 .section_wrap{
-    height: 100vh;
+    min-height: 100vh;
     /* border: 2px solid wheat; */
     position: relative;
     width: 100%;
