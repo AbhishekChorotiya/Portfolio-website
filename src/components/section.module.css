@@ -2,8 +2,8 @@
     min-height: 100vh;
     /* border: 2px solid wheat; */
     position: relative;
-    width: 100%;
-    overflow: hidden;
+    width: 100vw;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     transition: all 0.2s ease;
 }

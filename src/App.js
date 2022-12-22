@@ -14,20 +14,15 @@ function App() {
 
   return (
     <div className="App">
-        <Header />
-      <Section>
+        {/* <Header /> */}
         <MainSection />
-      </Section>
-      <Section id={'secondSection'}>
-        <Projects />
-      </Section>
-      <Section id={'thirdSection'}>
+        {/* <Projects /> */}
+
         <Skills />
-      </Section>
-      <Section>
+      {/* <Section>
         <Contact></Contact>
       </Section>
-      <IconSidebar />
+      <IconSidebar /> */}
     </div>
   );
 }

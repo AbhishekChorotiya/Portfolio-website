@@ -1,6 +1,9 @@
 .card_div {
-  /* border: 1px solid #868685; */
-  margin: 2rem;
+  /* border: 2px solid gold; */
+  width: 90%;
+  height: 50rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
   display: flex;
   border-radius: 0.5rem;
   background-color: rgba(32, 31, 29, 0.9);
@@ -9,7 +12,6 @@
   z-index: 0;
   position: relative;
   justify-self: center;
-  /* overflow: hidden; */
 }
 
 .img_div {
