@@ -15,8 +15,8 @@ const Skills = () => {
         <Progress fill="85%">CSS</Progress>
         <Progress fill="80%">JavaScript</Progress>
         <Progress fill="80%">NodeJS</Progress>
-        <Progress fill="75%">React</Progress>
-        <Progress fill="75%">React</Progress>
+        <Progress fill="75%">ReactJS</Progress>
+        <Progress fill="75%">SQL</Progress>
       </div>
     </div>
   );

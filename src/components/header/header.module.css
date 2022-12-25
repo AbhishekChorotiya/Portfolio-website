@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
 
 header {
-  padding-top: 2.5rem;
+  padding: 1rem;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -54,6 +54,8 @@ header {
 header .right_div {
   float: right;
   padding-right: 3%;
+  display: flex;
+  /* border: 2px solid greenyellow; */
 }
 
 .logo {

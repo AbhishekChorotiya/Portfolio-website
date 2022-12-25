@@ -9,7 +9,7 @@ const Projects = (props) => {
     return (
         <div className={classes.outter_div}>
             <div className={classes.header} data-aos='fade-left'>
-                <label>02. <a>Things I've made</a></label>
+                <label>03. <a>Things I've made</a></label>
             </div>
             <div className={classes.inner_div}>
                 <Card title='E-commerce Website' secondType={true}> <p className={classes.p}>Designed a simple chat application using npm modules such as HandleBars, Socket.io using NodeJS.

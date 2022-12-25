@@ -47,3 +47,11 @@ label::after{
     align-self: center;
     margin-bottom: 5rem;
 }
+@media screen and (max-width:450px) {
+  .header{
+      padding-left: 5rem;
+      padding-top: 4rem;
+      padding-bottom: 10rem;
+      /* border: 2px solid gold; */
+    }
+}

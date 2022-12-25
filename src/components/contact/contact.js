@@ -6,12 +6,13 @@ const Contact = () => {
 
     return (
         <div className={classes.outter_div}>
-            <div className={classes.header} data-aos='fade-left' data-aos-offset='120'>
-                <label>04. <a>Get in touch</a></label>
-            </div>
-            <div className={classes.inner_div} data-aos='zoom-in' data-aos-duration='500'>
-                <div className={classes.contact_div}>
-                    <div className={classes.right_card} >
+      <div className={classes.header} data-aos="fade-left">
+        <label>
+          04. <a>Get in touch</a>
+        </label>
+      </div>
+                <div className={classes.contact_div} data-aos="fade-left">
+                    <div className={classes.right_card} data-aos='slide-right' >
                         <h1 className={classes.span1}>Looking for Internship opportunity</h1>
                         <ul className={classes.ul}>
                             <li><span><svg>
@@ -33,7 +34,7 @@ const Contact = () => {
                             <li>Address:<br></br> Gaytri Nagar Beawar Road, Nimaj (Pali), 306303</li>
                         </ul>
                     </div>
-                    <div className={classes.message_cover}>
+                    <div className={classes.message_cover} >
                         <div className={classes.title_div}>
                             <span>Feel free to contact</span>
                         </div>
@@ -47,7 +48,6 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-            </div>
 
         </div>
     );
