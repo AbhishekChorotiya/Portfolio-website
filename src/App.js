@@ -7,6 +7,7 @@ import Section from './components/section';
 import Projects from './components/projectsSection/projects';
 import Skills from './components/skillsSection/skills';
 import Contact from './components/contact/contact';
+import Navbar from './components/navbar/navbar';
 
 function App() {
 

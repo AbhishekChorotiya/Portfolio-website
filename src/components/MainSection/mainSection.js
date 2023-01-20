@@ -18,7 +18,7 @@ const MainSection = () => {
                 I'm student at Indian Instute of Information Technology, KOTA
                 currently persuing BTech in Electronics and communication
                 engineering.<br></br>
-                I'm a full stack web developer , I love what i do.
+                I'm a full stack web developer with good problem solving skills <br></br>Seeking a position in a competitive environment that would challenge me to push my boundaries and expand my knowledge in this field of computer science. 
               </h3>
               <div className={classes.glass_button_div}>
                 <div className={classes.glass_button_wrap1}>

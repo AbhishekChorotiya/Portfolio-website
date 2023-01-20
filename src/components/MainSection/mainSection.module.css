@@ -75,8 +75,6 @@
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  letter-spacing: 0.3rem;
-  transform: translateX(-2%);
 }
 .first_div p {
   color: #f0b077;
@@ -101,7 +99,6 @@
 .first_div h2:hover {
   color: #dcdcdc;
   font-weight: bold;
-  transform: translateX(-1%);
   text-shadow: 0px 0px 20px #f0b077;
   -moz-transition: all 0.1s ease-in;
   -o-transition: all 0.1s ease-in;
@@ -123,12 +120,8 @@
   transition: all 0.1s ease-in;
 }
 .p2:hover {
-  inline-size: 45rem;
   color: #dcdcdc;
-  font-size: 1.7rem;
-  transform: translateX(-1%);
-
-  transition: all 0.1s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .glass_button_div {
