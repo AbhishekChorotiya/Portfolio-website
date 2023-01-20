@@ -5,7 +5,7 @@ import classes from './contact.module.css';
 const Contact = () => {
 
     return (
-        <div className={classes.outter_div}>
+        <div className={classes.outter_div} id={'contact'}>
       <div className={classes.header} data-aos="fade-left">
         <label>
           04. <a>Get in touch</a>

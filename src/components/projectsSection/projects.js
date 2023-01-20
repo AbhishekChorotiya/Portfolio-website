@@ -7,7 +7,7 @@ const Projects = (props) => {
 
 
     return (
-        <div className={classes.outter_div}>
+        <div className={classes.outter_div} id={'projects'}>
             <div className={classes.header} data-aos='fade-left'>
                 <label>03. <a>Things I've made</a></label>
             </div>

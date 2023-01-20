@@ -24,31 +24,31 @@ const Header = () => {
       <div className={collapsed ? classes.right_div : classes.slide}>
         <label className={classes.label}>
           01.
-          <a className={classes.navigation} href="/">
+          <a className={classes.navigation} href="#">
             Home
           </a>
         </label>
         <label className={classes.label}>
           02.
-          <a className={classes.navigation} href="#secondSection">
+          <a className={classes.navigation} href="#projects">
             Projects
           </a>
         </label>
         <label className={classes.label}>
           03.
-          <a className={classes.navigation} href="#thirdSection">
+          <a className={classes.navigation} href="#skills">
             Skills
           </a>
         </label>
         <label className={classes.label}>
           04.
-          <a className={classes.navigation} href="/">
+          <a className={classes.navigation} href="#contact">
             Contact
           </a>
         </label>
         <label className={classes.label}>
           05.
-          <a className={classes.navigation} href="/">
+          <a className={classes.navigation} href="#">
             About
           </a>
         </label>

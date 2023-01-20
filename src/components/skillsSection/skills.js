@@ -4,7 +4,7 @@ import Progress from "./progress/progress";
 
 const Skills = () => {
   return (
-    <div className={classes.outter_div}>
+    <div className={classes.outter_div} id={'skills'}>
       <div className={classes.header} data-aos="fade-left">
         <label>
           02. <a>Skills</a>
