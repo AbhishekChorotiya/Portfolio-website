@@ -15,7 +15,7 @@ const Projects = (props) => {
                 <label>03. <a>Things I've made</a></label>
             </div>
             <div className={classes.inner_div}>
-                <Card photo={ecommerce} title='E-commerce Website' secondType={true}> <p className={classes.p}>Designed a E-commerce Website using NodeJS and ReactJS.
+                <Card photo={ecommerce} github='https://github.com/AbhishekChorotiya/e-commerce-app' live='https://silverstore.onrender.com' title='E-commerce Website' secondType={true}> <p className={classes.p}>Designed a E-commerce Website using NodeJS and ReactJS.
                     <br></br>It has some awsome features like,
                 </p>
                     <ul className={classes.ul}>
@@ -26,7 +26,7 @@ const Projects = (props) => {
                     </ul>
                     <p className={classes.p2}> NodeJS • ReactJS • CSS Module • Express • MongoDB • JWT • Cookie-parser</p>
                 </Card>
-                <Card photo={lms} title='Advanced LMS (Learning Management System)' secondType={false}>  <p className={classes.p}>Desiging Advanced Learning Management System for Our Institute.
+                <Card photo={lms} github='https://github.com/AbhishekChorotiya/Major-Project-goup' title='Advanced LMS (Learning Management System)' secondType={false}>  <p className={classes.p}>Desiging Advanced Learning Management System for Our Institute.
                     <br></br>It has some awsome features like,
                 </p>
                     <ul className={classes.ul}>
@@ -38,7 +38,7 @@ const Projects = (props) => {
                     <p className={classes.p2}> NodeJS • ReactJS • CSS Module • Express • MongoDB • XLSX • Cookie-parser</p>
                 
                 </Card>
-                <Card photo={chatapp} title='Chat-app' secondType={false}>  <p className={classes.p}>Designed a simple chat application using npm modules such as HandleBars, Socket.io using NodeJS.
+                <Card photo={chatapp} github='https://github.com/AbhishekChorotiya/node-chatApp' live='https://chat-app-tvkq.onrender.com' title='Chat-app' secondType={false}>  <p className={classes.p}>Designed a simple chat application using npm modules such as HandleBars, Socket.io using NodeJS.
                     <br></br>It has some awsome features like,
                 </p>
                     <ul className={classes.ul}>
