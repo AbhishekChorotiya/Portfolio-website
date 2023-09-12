@@ -63,15 +63,18 @@
 }
 
 .title_div {
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   /* border: 2px solid orange; */
   position: relative;
   display: flex;
   /* border-bottom: 0.5px solid #868685; */
+  align-items: center;
+  /* justify-content: center; */
   padding-left: 3rem;
   z-index: 10;
   background-color: rgba(32, 31, 29, 0.9);
   backdrop-filter: blur(3px);
+  height: 3rem;
 }
 
 .links_div {

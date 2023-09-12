@@ -13,7 +13,7 @@ const Contact = () => {
       </div>
                 <div className={classes.contact_div} data-aos="fade-left">
                     <div className={classes.right_card} data-aos='slide-right' >
-                        <h1 className={classes.span1}>Looking for Internship opportunity</h1>
+                        <h1 className={classes.span1}>Looking for Internship and FTE opportunity</h1>
                         <ul className={classes.ul}>
                             <li><span><svg>
                                 <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
@@ -39,10 +39,10 @@ const Contact = () => {
                             <span>Feel free to contact</span>
                         </div>
                         <div className={classes.message_div}>
-                            <form>
-                                <input className={classes.text} type='text' placeholder="Your full name *"></input>
-                                <input className={classes.text} type='text' placeholder="Your Email *"></input>
-                                <textarea className={classes.textarea} placeholder="Message"></textarea>
+                            <form action="https://formsubmit.co/2020kuec2033@iiitkota.ac.in" method="POST">
+                                <input className={classes.text} type='text' name="name" placeholder="Your full name *"></input>
+                                <input className={classes.text} type='text' name="email" placeholder="Your Email *"></input>
+                                <textarea className={classes.textarea} name="comment" placeholder="Message"></textarea>
                                 <button className={classes.button}> Send</button>
                             </form>
                         </div>

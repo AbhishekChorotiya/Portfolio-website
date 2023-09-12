@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './card.module.css'
-import chatapp from './chatapp.jpg'
+// import chatapp from './chatapp.jpg'
 const Card = (props) => {
 
 
@@ -8,7 +8,7 @@ const Card = (props) => {
     return (
         <div className={classes.card_div} >
             <div className={classes.img_div} data-aos="zoom-in">
-                <img src={chatapp} className={classes.img}></img>
+                <img src={props.photo} className={classes.img}></img>
             </div>
             <div className={classes.desc_div} data-aos='fade-right' data-aos-duration='500'>
                 <div className={classes.title_div} >

@@ -141,8 +141,8 @@
 }
 
 .photo {
-  width: 23.2rem;
-  filter: grayscale(0.7);
+  width: 30rem;
+  filter: grayscale(0.5);
   transition: all 0.4s ease;
   cursor: pointer;
   border-radius: 20px;
@@ -179,7 +179,8 @@
   }
   .photo{
     box-shadow: none;
-    width: 26rem;
+    width: 25rem;
+    transform: translateY(30px);
   }
   .second_div{
     overflow: hidden;

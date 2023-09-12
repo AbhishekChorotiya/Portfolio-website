@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import classes from "./mainSection.module.css";
-import photo from "../../photo.jpeg";
+import photo from "../../photo.jpg";
 import GlassButton from "../buttons/glassButton";
 
 const MainSection = () => {
@@ -22,10 +22,10 @@ const MainSection = () => {
               </h3>
               <div className={classes.glass_button_div}>
                 <div className={classes.glass_button_wrap1}>
-                  <GlassButton>Get in touch!</GlassButton>
+                  <GlassButton redirect='#contact'>Get in touch!</GlassButton>
                 </div>
                 <div className={classes.glass_button_wrap2}>
-                  <GlassButton>Resume</GlassButton>
+                  <GlassButton redirect='https://drive.google.com/file/d/1-7-zvzGhxKRuzLrl-6wY47tT24w4Kmlu/view?usp=sharing'>Resume</GlassButton>
                 </div>
               </div>
             </div>
