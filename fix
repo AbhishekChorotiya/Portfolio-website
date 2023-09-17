@@ -1,0 +1,4 @@
+mainSection>outter_div>100vh
+projects>outter_div>100%
+header>.header>width>100%
+active>index>script>aos
