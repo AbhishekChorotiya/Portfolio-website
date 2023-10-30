@@ -4,7 +4,7 @@
 
 .outter_div {
   display: flex;
-  height: 0vh;
+  height: 100vh;
   position: relative;
   align-items: center;
   justify-content: center;

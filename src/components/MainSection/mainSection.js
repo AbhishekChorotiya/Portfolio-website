@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import classes from "./mainSection.module.css";
-import photo from "../../photo.jpg";
+import photo from "../../photo.jpeg";
 import GlassButton from "../buttons/glassButton";
 
 const MainSection = () => {
